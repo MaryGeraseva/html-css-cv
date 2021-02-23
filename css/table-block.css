@@ -1,0 +1,33 @@
+.table-block {
+    text-align: left;
+    width: 50%;
+    margin: 0px auto 0px auto;
+
+}
+
+.table-block__text-header {
+    vertical-align: top;
+    padding: 0px 20px 20px 0px;
+}
+
+.table-block__text-header:hover {
+    color: #363b4e;
+}
+
+.table-block__table__text-content:hover {
+    color: #00818a;
+}
+
+.table-block__table__text-content_small {
+    font-size: 0.85rem;
+
+}
+
+td {
+    vertical-align: top;
+    padding: 0px 20px 20px 0px;
+}
+
+
+
+
