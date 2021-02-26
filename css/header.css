@@ -1,8 +1,22 @@
 .header {
-    background-color: #66bfbf;
+    background-color: #eaf6f6;;
     position: fixed;
-    color: #eaf6f6;
     width: 100%;
-    height: 60px;
-    margin: 0px;
+    height: 4rem;
+    margin: 0rem;
+}
+
+.header__topnav {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    padding-top: 1rem;
+}
+
+.header__topnav a {
+    font-family: 'Merriweather', serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #66bfbf;
+    text-decoration: none;
 }

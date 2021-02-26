@@ -4,56 +4,56 @@
 <head>
   <meta charset="utf-8">
   <title>maria geraseva cv</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/intro-block.css">
   <link rel="stylesheet" href="css/table-block.css">
+  <link rel="stylesheet" href="css/skills-block.css">
+  <link rel="stylesheet" href="css/footer.css">
   <link rel="icon" href="images/favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="header">
+  <header class="header">
     <div class="header__topnav">
-      <a class="header__topnav__link" href="#education-block">Education</a>
+      <a href="#education-block">Education</a>
     </div>
     <div class="header__topnav">
-      <a class="header__topnav__link" href="#experience-block">Experience</a>
+      <a href="#experience-block">Experience</a>
     </div>
     <div class="header__topnav">
-      <a class="header__topnav__link" href="#skills-block">Skills</a>
+      <a href="#skills-block">Skills</a>
     </div>
     <div class="header__topnav">
-      <a class="header__topnav__link" href="#contact-block">Contact me</a>
+      <a href="#contact-block">Contact me</a>
     </div>
-  </div>
-  <div class="intro-block">
+  </header>
+  <div id="top" class="intro-block">
     <div class="intro-block__img-cloud__position_top">
-      <img src="images/cloud_form.png" alt="cloud image" height="80px">
+      <img src="images/cloud_form.png" alt="cloud image">
     </div>
-    <div class="intro-block__img-photo">
-      <img src="images/my_photo.png" alt="maria geraseva photo" height="230px" />
-    </div>
-    <div class="intro-block__text-greetings">
-      <h1>I'm Maria Geraseva</h1>
-    </div>
-    <div class="intro-block__text-job-function">
-      <h3>a software engineer in test</h3>
+    <div class="intro-block__greetings-section">
+      <div class="greetings-section__text">
+        <h1>I'm Maria Geraseva</h1>
+        <h3>a software engineer in test</h3>
+      </div>
+      <div class="greetings-section__img-photo">
+        <img src="images/my_photo.png" alt="maria geraseva photo" />
+      </div>
     </div>
     <div class="intro-block__img-cloud__position-bottom">
       <img src="images/cloud_form.png" alt="cloud image" height="60px">
     </div>
     <div class="intro-block__img-mountains">
       <img src="images/mountains_form.png" alt="mountains image" height="300px">
-    </div>  
+    </div>
   </div>
   <hr id="education-block" />
   <div class="table-block">
     <div class="table-block__text-header">
-      <h3 class="table-block__text-header">Education</h3>
+      <h3>Education</h3>
     </div>
     <div class="table-block__table">
       <table>
@@ -62,7 +62,7 @@
           <td><b>Belarusian National Technical University</b><br />Graduate School/PhD student<br />Heat and gas supply,
             ventilation, air conditioning, and air protection
             (HVAC)</td>
-        </tr >
+        </tr>
         <tr class="table-block__table__text-content">
           <td>2004<br />2010</td>
           <td><b>Belarusian National Technical University</b><br />Master of Engineering<br />Heat and gas supply,
@@ -73,36 +73,40 @@
           <td><b>Belarusian National Technical University</b><br />Bachelor<br />Economics and management</td>
         </tr>
       </table>
-    </div>  
+    </div>
   </div>
-  <hr id="experience-block"/>
+  <hr id="experience-block" />
   <div class="table-block">
     <div class="table-block__text-header">
-      <h3 class="table-block__text-header">Experience</h3>
+      <h3>Experience</h3>
     </div>
     <div class="table-block__table">
       <table>
         <tr class="table-block__table__text-content">
           <td>2020<br />Pres.</td>
           <td><b>EPAM Systems</b><br />Middle Software Test Automation Engineer<br />
-            <span class="table-block__table__text-content_small">UI & API test automation (Java), CI, release support</span>
+            <span class="table-block__table__text-content_small">UI & API test automation (Java), CI, release
+              support</span>
           </td>
-        </tr >
+        </tr>
         <tr class="table-block__table__text-content">
           <td>2011<br />2020</td>
           <td><b>ASGP</b><br />Chief Engineer<br />
-            <span class="table-block__table__text-content_small">BIM Modeling, HVAC & MEP design, 3D Modeling, Revit, AutoCad</span>
+            <span class="table-block__table__text-content_small">BIM Modeling, HVAC & MEP design, 3D Modeling, Revit,
+              AutoCad</span>
           </td>
         </tr>
         <tr class="table-block__table__text-content">
           <td>2011<br />2017</td>
           <td><b>Belarusian National Technical University</b><br />University Teacher<br />
-            <span class="table-block__table__text-content_small">Heating and ventilation teacher, head of graduation projects</span></td>
+            <span class="table-block__table__text-content_small">Heating and ventilation teacher, head of graduation
+              projects</span></td>
         </tr>
         <tr class="table-block__table__text-content">
           <td>2011<br />2012</td>
           <td><b>BelRosEnergoProekt</b><br />Senior HVAC Engineer<br />
-            <span class="table-block__table__text-content_small">HVAC & MEP design, 3D Modeling, MagiCad, AutoCad</span></td>
+            <span class="table-block__table__text-content_small">HVAC & MEP design, 3D Modeling, MagiCad, AutoCad</span>
+          </td>
         </tr>
         <tr class="table-block__table__text-content">
           <td>2008<br />2011</td>
@@ -110,29 +114,325 @@
             <span class="table-block__table__text-content_small">HVAC & MEP design, AutoCad</span></td>
         </tr>
       </table>
-    </table>
-    </div>  
+      </table>
+    </div>
   </div>
-
-    
-   
+  <hr id="skills-block" />
+  <div class="skills-block">
+    <div class="skills-block__text-header">
+      <h3>Skills</h3>
+    </div>
+    <ul class="skills-block__list">
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Java</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">JavaScript</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Swift</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Groovy</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">HTML5</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">CSS3</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Maven</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Gradle</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Selenium</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">SQL</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Selenide</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Junit5</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">TestNG</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">RestAssured</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Jackson/Gson</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">JBehave</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Git</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Allure</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Jenkins</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Bamboo</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">SauceLabs</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+      <li class="skills-block__list__line">
+        <div class="skills-block__list__line-text">
+          <h4 class="skills-block__list__text-content">Docker</h4>
+        </div>
+        <div class="skills-block__list__line-score">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_full.png" alt="star full">
+          <img class="skills-block__img-star" src="images/star_empty.png" alt="star empty">
+        </div>
+      </li>
+    </ul>
   </div>
-
-  <hr id="skills-section"/>
-
-  <div>
-    <h3>Skills</h3>
-  </div>
-   
-  <hr />
-
-  <div class="footer">
-    <h3 id="contact-section" class="light-text">Contacts</h3>
-    <div><a href="https://www.linkedin.com/in/maria-geraseva/">LinkedIn</a></div>
-    <div><a href="https://github.com/MaryGeraseva">GitHub</a></div>
-    <div><a href="contact_form.html">Email me</a></div>
-  </div>
-
+  <footer id="contact-block" class="footer">
+    <div class="footer__image">
+      <img src="images/footer.png">
+    </div>
+    <div class="footer__contacts">
+      <div class="contacts__text-header">
+        <h3 id="contact-section" class="light-text">Contact me</h3>
+      </div>
+      <div class="contacts__link">
+        <div>
+          <a href="https://www.linkedin.com/in/maria-geraseva/" target="_blank">
+            <img src="images/linkedin.png" alt="linkedin">
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/MaryGeraseva" target="_blank">
+            <img src="images/github.png" alt="github">
+          </a>
+        </div>
+        <div>
+          <a href="mailto:mary.geraseva@gmail.com">
+            <img src="images/email.png" alt="email">
+          </a>
+        </div>
+        <div>
+          <a href="https://telegram.me/MaryMaryMary1986Step" target="_blank">
+            <img src="images/telegram.png" alt="telegram">
+          </a>
+        </div>
+        <div>
+          <a href="skype:mary_geraseva?chat">
+            <img src="images/skype.png" alt="skype">
+          </a>
+        </div>
+        <div>
+          <a href="#top">
+            <img src="images/arrow.png" alt="top navigation">
+          </a>
+        </div>
+      </div>
+      <div class="contacts__license">
+        <p>&copy 2021 Maria Geraseva</p>
+      </div>
+    </div>
+  </footer>
 </body>
-
 </html>

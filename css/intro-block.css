@@ -4,36 +4,53 @@
 }
 
 .intro-block__img-cloud__position_top {
-    padding-top: 100px;
+    padding-top: 5rem;
     margin-right: 60%;
+}
+
+.intro-block__img-cloud__position_top>img {
+    height: 80px;
 }
 
 .intro-block__img-cloud__position_top:hover {
     margin-right: 20%;
 }
 
-.intro-block__img-photo {
-    margin-left: 35%;
+.intro-block__greetings-section {
+    width: 100%;
 }
 
-.intro-block__img-photo:hover {
+.greetings-section__text, .greetings-section__img-photo {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+}
+
+.greetings-section__img-photo:hover {
     transform: rotate(0.05turn);
 }
 
-.intro-block__text-greetings {
-    color: #66bfbf;
-    font-family: 'Sacramento', cursive;
-    font-size: 2rem;
-    line-height: 3.5rem;
-    margin: 0px 30% 0px 0px;
+.greetings-section__img-photo>img {
+    height: 230px;
+    padding-left: 1rem;
 }
 
-.intro-block__text-job-function {
+.greetings-section__text h1, .greetings-section__text h3 {
     color: #66bfbf;
+}
+
+.greetings-section__text h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+
+.greetings-section__text h3 {
     font-family: 'Merriweather', serif;
     font-weight: normal;
-    line-height: 1rem;
-    margin: 10px 30% 0px 0px;
+    line-height: 1.5rem;
 }
 
 .intro-block__img-cloud__position-bottom {
