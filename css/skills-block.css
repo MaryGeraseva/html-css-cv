@@ -21,6 +21,10 @@
     width: 40%;
 }
 
+.skills-block__text-header {
+    color: #66bfbf;
+}
+
 .skills-block__list__line-text:hover {
     width: 35%;
 }
